@@ -41,14 +41,14 @@ class BlogPosts extends Component {
         
         {this.state.blogs.map((blog) => {
           return (
-            <Card key={blog.id}>
-              <Card.Header>
-                <p>Title: {blog.title}</p>
-              </Card.Header>
-              <Card.Body>
-                <p>Text: {blog.text}</p>
-              </Card.Body>
-            </Card>
+            <div className="max-w-sm rounded overflow-hidden shadow-lg font-mono" key={blog.id}>
+              <div>
+                <p className="text-xl">Title: {blog.title}</p>
+              </div>
+              <div>
+                <p className="text-base">Text: {blog.text}</p>
+              </div>
+            </div>
           );
         })}
         <br />

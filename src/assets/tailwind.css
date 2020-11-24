@@ -1,5 +1,176 @@
 @tailwind base;
 
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 400;
+  /*src: url(assets/fonts/proxima-nova/400-regular.woff2) format("woff2");*/
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 700;
+  /*src: url(assets/fonts/proxima-nova/700-bold.woff2) format("woff2");*/
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 900;
+  /*src: url(assets/fonts/proxima-nova/900-black.woff2) format("woff2");*/
+}
+
+.body-1 {
+  @apply .font-regular .text-base .text-primaryBlue
+}
+
+.body-2 {
+  @apply .font-regular .text-sm .text-blue2
+}
+
+.body-2-bold {
+  @apply .font-bold .text-sm .text-blue3
+}
+
+.link-text {
+  @apply .font-regular .text-sm .text-blue4
+}
+
+.error-text {
+  @apply .font-regular .text-sm .text-gray1
+}
+
+.disabled-text {
+  @apply .font-regular .text-sm .text-gray2
+}
+
+.tiny-text {
+  @apply .font-semibold .text-xs
+}
+
+.display-large {
+  @apply .font-bold .text-5xl
+}
+
+.h1-large {
+  @apply .font-semibold .text-4xl
+}
+
+.h2-large {
+  @apply .font-semibold 
+}
+
+.h3-large {
+  @apply .font-bold .text-2xl
+}
+
+.eyebrow-large {
+  @apply .font-semibold .text-lg
+} 
+
+.display-small {
+  @apply .font-bold 
+}
+
+.h1-small {
+ @apply .font-semibold 
+}
+
+.h2-small {
+  @apply .font-semibold .text-2xl
+}
+
+.h3-small {
+  @apply .font-bold .text-lg
+}
+
+.eyebrow-small {
+  @apply .font-bold .text-base
+}
+
+.test-color {
+  @apply .font-bold .text-lg .text-blue2
+}
+
+.test-pixels-48 {
+  @apply .font-bold .px-48
+}
+
+/*.test-pixels-200 {
+  @apply .font-bold .px-200
+}
+*/
+
+/*@tailwind preflight;
+@tailwind components;
+@tailwind utilities;*/
+
 @tailwind components;
 
 @tailwind utilities;
+
+/*.body-1 {
+  @apply .px-16 .font-regular .text-base
+}
+
+.body-2 {
+  @apply .px-14 .font-regular .text-sm
+}
+
+.body-2-bold {
+  @apply .px-14 .font-bold .text-sm
+}
+
+.link-text {
+  @apply .px-14 .font-regular .text-sm
+}
+
+.error-text {
+  @apply .px-14 .font-regular .text-sm
+}
+
+.disabled-text {
+  @apply .px-14 .font-regular .text-sm
+}
+
+.tiny-text {
+  @apply .px-12 .font-semibold .text-xs
+}
+
+.display-large {
+  @apply .px-48 .font-bold .text-5xl
+}
+
+.h1-large {
+  @apply .px-36 .font-semibold .text-4xl
+}
+
+.h2-large {
+  @apply .px-28 .font-semibold .text-175
+}
+
+.h3-large {
+  @apply .px-24 .font-bold .text-2xl
+}
+
+.eyebrow-large {
+  @apply .px-18 .font-semibold .text-lg
+} 
+
+.display-small {
+  @apply .px-40 .font-bold .text-250
+}
+
+.h1-small {
+ @apply .px-28 .font-semibold .text-175
+}
+
+.h2-small {
+  @apply .px-24 .font-semibold .text-2xl
+}
+
+.h3-small {
+  @apply .px-18 .font-bold .text-lg
+}
+
+.eyebrow-small {
+  @apply .px-16 .font-bold text-base
+}*/

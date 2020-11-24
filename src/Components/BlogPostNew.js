@@ -66,7 +66,7 @@ class BlogPostNew extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container self-center p-4 shadow-lg">
         <div>
           <Form onSubmit={this.handleSubmit}>
             <Form.Group>
